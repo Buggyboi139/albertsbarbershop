@@ -3,58 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Albert's Barbershop</title>
+    <title>Albert's Barber Shop</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Albert's</div>
-            <ul class="nav-links">
-                <li><a href="#service">Service</a></li>
-                <li><a href="#location">Location</a></li>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="brand-logo">Albert's Barber Shop</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <section class="hero">
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Albert's Barber Shop</h1>
-            <p>A traditional grooming experience.</p>
+            <p class="tagline">WALK OUT WITH STYLE</p>
+            <a href="#services" class="cta-btn">View Services</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>Albert's Barber Shop</h2>
+                <h3>Located in the heart of Southside Des Moines</h3>
+                <p>Albert’s Barber Shop has been a staple in the community for over 15 years. We specialize in classic gentlemen's haircuts, providing a professional and friendly atmosphere. Our skilled barbers offer precision cuts, fades, and trims tailored to your style. Whether you're looking for a fresh new look or just a regular trim, Albert’s Barbershop is the place to be.</p>
+                <p>Walk-ins are always welcome, and we pride ourselves on creating a relaxing, old-school experience with a modern touch. Visit us today and leave feeling your best!</p>
+                
+                <div class="all-ages-box">
+                    <h4>Service for All Ages</h4>
+                    <p>We pride ourselves on making everyone from kids to seniors feel comfortable in our antique barber chairs. Our experienced staff can cut and style hair for all ages.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="ab1.jpeg" alt="Albert's Barber Shop Interior">
+            </div>
         </div>
     </section>
 
-    <section id="service" class="services">
-        <h2>Our Service</h2>
-        <div class="service-grid">
-            <div class="service-card">
-                <img src="ab3.jpeg" alt="Barber Chair">
-                <h3>Gentleman's Haircut</h3>
-                <span class="price">$25</span>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="service-item">
+                <div class="service-details">
+                    <h3>Gentlemens Hair Cut</h3>
+                </div>
+                <div class="service-price">$25</div>
             </div>
         </div>
     </section>
 
-    <section id="location" class="location-section">
-        <h2>Find Us</h2>
-        <div class="location-container">
-            <div class="card-wrapper">
-                <img src="ab2.png" alt="Albert's Barber Shop Business Card">
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-header">
+                <h2>Gallery</h2>
+                <p>Explore our gallery of barbershop photos. Get a glimpse of trained barber's at shop. Dive into the world of Grooming Experience.</p>
             </div>
-            <div class="map-panel">
-                <iframe src="https://maps.google.com/maps?q=3823%20SW%209th%20St,%20Des%20Moines,%20IA%2050315&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="gallery-grid">
+                <img src="ab3.jpeg" alt="Antique Barber Chair">
+                <img src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?auto=format&fit=crop&w=800&q=80" alt="Barber trimming beard closeup">
+                <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80" alt="Barber tools and clippers closeup">
+                <img src="ab1.jpeg" alt="Barbershop Waiting Area">
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="brand">
-                <h2>Albert's Barbershop</h2>
-                <p>3823 SW 9th St</p>
-                <p>Des Moines, IA 50315</p>
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Fantastic Clients Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"Albert does a great job. No appointment is needed, it’s first come first served, but I’ve never had to wait too long, but there is good conversation if you do have to wait. Would highly recommend if looking for a licensed barber in the Southside community."</p>
+                    <p class="author">- Casey</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">"Al always does a great job!"</p>
+                    <p class="author">- John</p>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Common Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4>Do I need an appointment?</h4>
+                </div>
+                <div class="faq-item">
+                    <h4>What forms of payment do you accept?</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Get In Touch</h3>
+                <p>+1-515-865-2535</p>
+                <p>Address: 3823 SW 9th St.</p>
+                <p>Email: Albertidunn@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h3>Hours of Operation:</h3>
+                <p>Tues - Fri: 10am to 5pm</p>
+                <p>Saturday: 10am to 1pm</p>
+                <p>Sunday - Mon: Closed</p>
+            </div>
+            <div class="footer-col social-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">X</a>
+                    <a href="#">Youtube</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2026 . All rights reserved</p>
         </div>
     </footer>
 </body>
