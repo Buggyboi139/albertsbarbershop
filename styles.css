@@ -36,7 +36,7 @@ h1, h2, h3, h4, .brand-logo {
 }
 
 .navbar {
-    background-color: rgba(38, 50, 95, 0.75);
+    background-color: rgba(38, 50, 95, 0.95);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     position: fixed;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, .brand-logo {
 .hero-content {
     position: relative;
     z-index: 1;
-    background: rgba(26, 31, 54, 0.4);
+    background: rgba(26, 31, 54, 0.85);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
