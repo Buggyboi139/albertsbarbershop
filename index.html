@@ -1,105 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Albert's Barber Shop</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert's Barbershop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-<nav>
-<ul>
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#contact">Contact Us</a></li>
-</ul>
-</nav>
-</header>
+    <header>
+        <nav>
+            <div class="logo">Albert's</div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#book" class="btn btn-primary">Book Now</a>
+        </nav>
+    </header>
 
-<section id="home">
-<img src="ab2.png" alt="Albert's Barber Shop Logo">
-<h1>Albert's Barber Shop</h1>
-<h2>WALK OUT WITH STYLE</h2>
-<p>Located in the heart of Southside Des Moines</p>
-</section>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Classic Cuts, Modern Style</h1>
+            <p>Experience grooming with elegance and precision.</p>
+            <a href="#book" class="btn btn-secondary">Reserve Your Chair</a>
+        </div>
+    </section>
 
-<section id="about">
-<h2>About Albert</h2>
-<p>Albert graduated from barber school in 1981 and has proudly owned and operated Albert’s Barber Shop for over 15 years. As the shop's sole barber, Albert provides a highly personalized experience, specializing in classic gentlemen's haircuts in a professional and friendly atmosphere. With decades of expertise, he offers precision cuts, fades, and trims tailored to your exact style.</p>
-<p>Walk-ins are always welcome. Come enjoy a relaxing, old-school barbering experience in a clean and modern shop. Visit us today and leave feeling your best!</p>
-</section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="ab1.jpeg" alt="Haircut">
+                <h3>The Classic Cut</h3>
+                <p>Traditional shears and clippers for a timeless look.</p>
+                <span class="price">$40</span>
+            </div>
+            <div class="service-card">
+                <img src="ab2.png" alt="Beard Trim">
+                <h3>Hot Towel Shave</h3>
+                <p>Straight razor shave with premium essential oils.</p>
+                <span class="price">$35</span>
+            </div>
+            <div class="service-card">
+                <img src="ab3.jpeg" alt="Styling">
+                <h3>Beard Sculpting</h3>
+                <p>Detailed shaping and lining for a sharp finish.</p>
+                <span class="price">$25</span>
+            </div>
+        </div>
+    </section>
 
-<section id="services">
-<h2>Services</h2>
-<h3>Service for All Ages</h3>
-<p>We pride ourselves on making everyone from kids to seniors feel comfortable in our antique barber chairs. Albert is experienced in cutting and styling hair for all ages.</p>
-<div class="service-item">
-<h4>Gentlemens Hair Cut</h4>
-<span>$25</span>
-</div>
-</section>
-
-<section id="testimonials">
-<h2>What Our Fantastic Clients Say</h2>
-<blockquote>
-"Albert does a great job. No appointment is needed, it’s first come first served, but I’ve never had to wait too long, but there is good conversation if you do have to wait. Would highly recommend if looking for a licensed barber in the Southside community."
-<cite>- Casey</cite>
-</blockquote>
-<blockquote>
-"Al always does a great job!"
-<cite>- John</cite>
-</blockquote>
-</section>
-
-<section id="gallery">
-<h2>Gallery</h2>
-<p>Explore our gallery of barbershop photos. Dive into a classic, sleek grooming experience.</p>
-<div class="gallery-grid">
-<img src="ab1.jpeg" alt="Antique Barber Chair">
-<img src="ab3.jpeg" alt="Shop Waiting Area">
-</div>
-</section>
-
-<section id="faq">
-<h2>Common Questions</h2>
-<div class="faq-item">
-<h4>Do I need an appointment?</h4>
-<p>We welcome walk-in clients.</p>
-</div>
-<div class="faq-item">
-<h4>What forms of payment do you accept?</h4>
-<p>We accept cash.</p>
-</div>
-</section>
-
-<section id="contact">
-<h2>Get In Touch</h2>
-<p>Phone: <a href="tel:+15158652535">+1-515-865-2535</a></p>
-<p>Address: 3823 SW 9th St. DSM IA 50315</p>
-<p>Email: <a href="mailto:Albertidunn@gmail.com">Albertidunn@gmail.com</a></p>
-<div class="hours">
-<h3>Hours of Operation:</h3>
-<ul>
-<li>Tues - Fri: 10am to 5pm</li>
-<li>Saturday: 10am to 1pm</li>
-<li>Sunday - Mon: Closed</li>
-</ul>
-</div>
-<div class="map-container">
-<iframe src="https://maps.google.com/maps?q=3823%20SW%209th%20St,%20Des%20Moines,%20IA%2050315&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-</section>
-
-<footer>
-<div class="socials">
-<a href="#">Facebook</a>
-<a href="#">Instagram</a>
-<a href="#">X</a>
-<a href="#">Youtube</a>
-</div>
-<p>Copyright 2026 . All rights reserved</p>
-</footer>
+    <footer>
+        <div id="contact" class="footer-content">
+            <div class="brand">
+                <h2>Albert's Barbershop</h2>
+                <p>123 Style Avenue, City, State</p>
+            </div>
+            <div class="hours">
+                <h3>Hours</h3>
+                <p>Mon-Fri: 9am - 7pm<br>Sat: 9am - 5pm<br>Sun: Closed</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Albert's Barbershop. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
